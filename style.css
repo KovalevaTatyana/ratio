@@ -100,6 +100,7 @@ a {
 }
 
 .container_main {
+    margin-top: 100px;
     margin-left: 280px;
     max-width: 1117px;
 }
@@ -126,4 +127,91 @@ a {
     color: #4B5D68;
     width: 85%;
     margin: 40px 0 0 0;
+}
+.container_main__features {
+    width: 100%;
+    margin-top: 150px;
+}
+.container_main__features_block {
+    width: 100%;
+    text-align: center;
+}
+.container_main__features_block__title {
+    font-size: 40px;
+    font-family: Ubuntu bold;
+    color: #212353;
+    margin-bottom: 40px;
+}
+.container_main__features_block__text {
+    font-size: 18px;
+    font-family: Ubuntu regular;
+    color: #4B5D68;
+    margin: auto;
+    width: 52%;
+}
+.container_main__features_wrap {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.container_main__features_wrap_column .first {
+    background: url(images/Group76.svg) no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-bottom: 50px;
+}
+.container_main__features_wrap_column__item {
+}
+.container_main__features_wrap_column__item_image img {
+    margin-top: 80px;
+    margin-left: -100px;
+}
+.container_main__features_wrap_column__item_info {
+    width: 50%;
+}
+.container_main__features_wrap_column__item_info h4 {
+    margin-top: 60px;
+    font-size: 24px;
+    font-family: Ubuntu regular;
+    color: #212353;
+}
+.container_main__features_wrap_column__item_info p {
+    font-size: 16px;
+    font-family: Ubuntu regular;
+    line-height: 26px;
+    color: #4B5D68;
+    margin-top: 20px;
+    height: 160px;
+    width: 110%;
+}
+.container_main__features_wrap_column__item_info a {
+    font-size: 16px;
+    font-family: Ubuntu bold;
+    color: #212353;
+}
+.container_main__features_wrap_column__item_info a::after {
+    content: url('images/Group56.svg');
+    padding-left: 20px;
+}
+.container_main__features_wrap_column .second {
+    background: url(images/Group78.svg) no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-bottom: 150px;
+}
+.container_main__features_wrap_column .third {
+    background: url(images/Group77.svg) no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-bottom: 50px;
+}
+.container_main__features_wrap_column .fourth {
+    background: url(images/Group79.svg) no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-bottom: 150px;
+}
+.container_main__features_wrap_column__item_info__arrow {
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
