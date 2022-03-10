@@ -223,3 +223,75 @@ a {
     margin-bottom: 30px;
     margin-top: 30px;
 }
+.container_main__testimonials {
+    background: #9C69E2;
+    border-radius: 50px;
+    width: 100%;
+}
+.container_main__testimonials__title h2 {
+    width: 100%;
+    font-size: 40px;
+    font-family: Ubuntu bold;
+    color: #FFFFFF;
+    padding-top: 109px;
+    padding-bottom: 88px;
+    padding-left: 93px;
+}
+.container_main__testimonials__wrap {
+    width: 60%;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 0px rgb(138 86 219 / 70%);
+    border-radius: 20px;
+    margin-left: 93px;
+}
+.container_main__testimonials__wrap_block .second,
+.container_main__testimonials__wrap_block .third,
+.container_main__testimonials__wrap_block .fourth {
+    display: none;
+}
+.container_main__testimonials__wrap_block__item {
+    display: flex;
+    width: 100%;
+}
+.container_main__testimonials__wrap_block__item_info {
+    width: 100%;
+    padding: 80px 0 50px 0;
+}
+.container_main__testimonials__wrap_block__item_info__name {
+    width: 100%;
+    font-size: 18px;
+    font-family: Ubuntu bold;
+    color: #212353;
+    line-height: 29px;
+    letter-spacing: 0.5%;
+}
+.container_main__testimonials__wrap_block__item_info__description {
+    width: 100%;
+    font-size: 14px;
+    font-family: Ubuntu regular;
+    color: #9C69E2;
+    line-height: 29px;
+    letter-spacing: 1%;
+}
+.container_main__testimonials__wrap_block__item_info__text {
+    width: 80%;
+    font-size: 18px;
+    font-family: Ubuntu regular;
+    color: #4B5D68;
+    line-height: 32px;
+}
+.container_main__testimonials__wrap_block__item_image {
+    padding: 60px 70px 0 70px;
+}
+.container_main__testimonials__panel {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 93px 60px 93px;
+}
+.container_main__testimonials__wrap_panel__circle img{
+    margin-right: 10px;
+}
+.container_main__testimonials__wrap_panel__arrow img {
+    margin-right: 20px;
+}
