@@ -52,10 +52,11 @@ a {
 .banner__header_wrap__navigation a {
     color: #4B5D68;
     font-family: Ubuntu regular;
-
+    font-size: 16px;
+    line-height: 26px;
 }
 .banner__header_wrap__navigation a:hover {
-    color: #4B5D68;
+    color: #212353;
     font-family: Ubuntu bold;
 }
 .container_banner__content {
