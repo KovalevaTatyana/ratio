@@ -99,8 +99,8 @@ a {
 }
 
 .container_main {
-    margin-top: 100px;
-    margin-left: 280px;
+    width: 100%;
+    margin: 100px auto;
     max-width: 1117px;
 }
 .container_main__about {
@@ -294,4 +294,82 @@ a {
 }
 .container_main__testimonials__wrap_panel__arrow img {
     margin-right: 20px;
+}
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: #9c69e2;
+    opacity: 0.2;
+    margin-top: 150px;
+    margin-bottom: 125px;
+}
+.container_footer {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1248px;
+    padding-bottom: 65px;
+}
+.container_footer__wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.container_footer__wrap_colum__logo {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.container_footer__wrap_colum__logo h5 {
+    font-size: 20px;
+    font-family: Ubuntu bold;
+    color: #212353;
+}
+.container_footer__wrap_colum__contacts {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding-bottom: 36px;
+}
+.container_footer__wrap_colum__contacts_address {
+    width: 100%;
+    font-size: 16px;
+    font-family: Ubuntu regular;
+    color: #212353;
+    line-height: 29px;
+    font-weight: 500;
+}
+.container_footer__wrap_colum__contacts_mail,
+.container_footer__wrap_colum__contacts_phone {
+    width: 100%;
+    font-size: 16px;
+    font-family: Ubuntu regular;
+    color: #212353;
+    line-height: 29px;
+    font-weight: 400;
+}
+.container_footer__wrap_colum__copyright {
+    width: 100%;
+    font-size: 12px;
+    font-family: Ubuntu regular;
+    color: #212353;
+    line-height: 22px;
+    font-weight: 400;
+}
+.container_footer__wrap_colum__social h5 {
+    font-size: 16px;
+    font-family: Ubuntu regular;
+    color: #212353;
+    line-height: 26px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.container_footer__wrap_colum__social_icons {
+    display: flex;
+    flex-direction: row;
+}
+.container_footer__wrap_colum__social_icons img {
+    padding-right: 14px;
 }
