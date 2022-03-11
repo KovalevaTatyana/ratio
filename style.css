@@ -73,19 +73,18 @@ a {
     font-size: 70px;
     font-family: Ubuntu bold;
     color: #212353;
-    width: 100%;
+    width: 140%;
 }
 .banner__content_wrap__column_text {
     font-size: 18px;
     line-height: 29px;
     font-family: Ubuntu regular;
     color: #4B5D68;
-    width: 60%;
+    width: 100%;
     margin: 40px 0 40px 0;
 }
 .banner__content_wrap__column img {
     margin-top: 110px;
-    width: 100%;
 }
 .banner__content_wrap__column_btn {
     background: #9C69E2;
